@@ -9,6 +9,8 @@ COPY . /apipython
 
 RUN pip3 --no-cache-dir install -r requirements.txt
 
+RUN apt-get install libmysqlclient-dev
+
 RUN pip3 install mysqlclient
 
 RUN python3 manage.py makemigrations
