@@ -1,0 +1,6 @@
+[client]
+database = Proyecto_Web
+user = proyecto
+password = 123456
+host = 34.70.86.84
+port = 5050
